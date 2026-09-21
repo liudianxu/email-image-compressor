@@ -119,6 +119,34 @@ export default function HomePage() {
       </section>
 
       <section className="block">
+        <h2>Guides: why your attachments bounce</h2>
+        <ul className="guides-list">
+          <li>
+            <a href="/guides/gmail-attachment-size-limit">Gmail attachment size limit explained</a>
+            <p>25 MB on paper, less in practice — see the exact numbers.</p>
+          </li>
+          <li>
+            <a href="/guides/outlook-attachment-size-limit">Outlook attachment size limit explained</a>
+            <p>20 MB at best, and corporate Exchange servers often block much less.</p>
+          </li>
+          <li>
+            <a href="/guides/compress-image-without-losing-quality">
+              Compress an image without losing quality
+            </a>
+            <p>How 8 MB photos shrink to 1 MB and still look identical on screen.</p>
+          </li>
+          <li>
+            <a href="/guides/iphone-photos-too-large">iPhone photos too large to email</a>
+            <p>The real fix when Mail says your photos are too big — without the blur.</p>
+          </li>
+          <li>
+            <a href="/guides/attachment-too-large">&quot;Attachment too large&quot; — every cause and fix</a>
+            <p>Bounced even though the file seemed small? Find your case here.</p>
+          </li>
+        </ul>
+      </section>
+
+      <section className="block">
         <h2>Frequently asked questions</h2>
         <details className="faq" open>
           <summary>What is the maximum email attachment size?</summary>

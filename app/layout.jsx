@@ -25,6 +25,7 @@ export default function RootLayout({ children }) {
               CompressFor<span>.Email</span>
             </a>
             <nav className="simple">
+              <a href="/guides">Guides</a>
               <a href="/privacy">Privacy</a>
               <a href="/terms">Terms</a>
             </nav>
