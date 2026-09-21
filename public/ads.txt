@@ -1,0 +1,5 @@
+# ads.txt — once Google AdSense approves this site, replace the line below with
+# the exact line AdSense shows under AdSense > Sites > ads.txt.
+# Format: <your-publisher-id>, pub-XXXXXXXXXXXXXXXX, DIRECT, f08c47fec0942fa0
+#
+# Leaving this file with only comments is harmless; an incorrect line is worse than none.

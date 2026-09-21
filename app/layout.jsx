@@ -1,4 +1,5 @@
 import './globals.css';
+import { AdSenseScript, AdSlot } from '@/components/AdSense';
 
 export const metadata = {
   title: 'Compress Images for Email (Outlook & Gmail) — Free & Private',
@@ -32,6 +33,10 @@ export default function RootLayout({ children }) {
           </div>
         </header>
         <main>{children}</main>
+        <AdSenseScript />
+        <div className="wrap">
+          <AdSlot slot={process.env.NEXT_PUBLIC_ADSENSE_SLOT} />
+        </div>
         <footer className="site">
           <div className="wrap">
             <div className="links">
