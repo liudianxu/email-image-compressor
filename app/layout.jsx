@@ -5,6 +5,9 @@ export const metadata = {
   description:
     'Shrink JPG and PNG images to fit email attachment limits. Targets Outlook (20 MB) and Gmail (25 MB). Everything runs in your browser — your photos are never uploaded.',
   robots: { index: true, follow: true },
+  other: {
+    'google-site-verification': 'CGGDalbKglErVAKN3PENnjqq2MVtvOpL5yrVu1IQx58',
+  },
 };
 
 export const viewport = {
