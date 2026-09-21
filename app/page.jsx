@@ -140,8 +140,23 @@ export default function HomePage() {
             <p>The real fix when Mail says your photos are too big — without the blur.</p>
           </li>
           <li>
+            <a href="/guides/android-photos-too-large">Android photos too large to email</a>
+            <p>Samsung, Pixel and Xiaomi shots are multi-MB. Shrink them without the blur.</p>
+          </li>
+          <li>
+            <a href="/guides/how-many-photos-can-i-email">How many photos can you email?</a>
+            <p>Exact counts per provider — full-size vs compressed to 1 MB.</p>
+          </li>
+          <li>
+            <a href="/guides/scanned-documents-too-large">Scanned documents too large to email</a>
+            <p>Contracts and IDs that bounce off 5 MB upload portals — fixed.</p>
+          </li>
+          <li>
             <a href="/guides/attachment-too-large">&quot;Attachment too large&quot; — every cause and fix</a>
             <p>Bounced even though the file seemed small? Find your case here.</p>
+          </li>
+          <li className="more">
+            <a href="/guides">See all guides →</a>
           </li>
         </ul>
       </section>

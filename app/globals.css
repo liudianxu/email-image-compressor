@@ -159,6 +159,12 @@ nav.simple a {
   color: var(--muted);
 }
 
+.guides-list li.more {
+  background: transparent;
+  border-style: dashed;
+  text-align: center;
+}
+
 footer.site {
   border-top: 1px solid var(--border);
   margin-top: 64px;
